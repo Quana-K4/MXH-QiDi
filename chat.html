@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QiDi</title>
+    <link rel="stylesheet" href="/assets/css/chat.css">
+    <link rel="stylesheet" href="/assets/css/mobile/mobile-chat.css" media="screen and (max-width:500px)" />
+    <link rel="stylesheet" href="/assets/css/mobile/mobile-chat-height.css" media="screen and (max-height:500px)" />
+    <!-- icon -->
+    <link rel="shortcut icon" href="/assets/images/Logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+    </style>
+</head>
+<body>
+    <div class="black">
+        <img src="/assets/images/LOGOLOAD.png" alt="">
+    </div>
+    <div class="body">
+        <div class="show-sidebar-button">
+            <i class="ri-menu-line"></i>
+        </div>        
+          <div class="sidebar">
+              <div class="header__logo hover1"> 
+                <a href="/index.html" class="flex">
+                      <img src="/assets/images/Logo.png" alt="Logo QiDi" class="img__logo">
+                      <p>QiDi</p>
+                  </a>
+              </div>
+              <div class="menu2__json menu2"></div>
+              <div class="menu2">
+                <a href="#">
+                      <span class="icon hover2 avt">
+                        <img src="/assets/images/Sample_User_Icon.png" style="background-color: #c2c2c2; border-radius: 50%;" alt="">
+                      </span>
+                      Hồ sơ 
+                  </a>
+                  <hr>
+                  <div class="cateBook" onclick="showMenu3()" id="showMenuButton3">
+                    <span class="icon hover2">
+                        <i class="ri-menu-line" id="skip3"></i>
+                    </span>
+                    <div class="them">
+                        Thêm
+                        <ul class="menu-more" id="menuu3">
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        <!-- CHAT CHAT CHAT CHAT -->
+        <div class="chat">
+            <div id="chat-container">
+                <div id="chat-header" class="flex">
+                    <div class="avt_c flex">
+                        <div class="c_img">
+                            <img src="/assets/images/Avt1.jpg" alt="">
+                        </div>
+                        <div>
+                            <p style="font-weight: 1000;">Friend 1</p>
+                            <p style="font-weight: 100;">Hoạt động 10p trước</p>
+                        </div>
+                    </div>
+                    <div class="call">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                </div>
+                <div id="message-list">
+                    <div class="border__mes">
+                        <div class="message">
+                            Friend: Hello! How are you?</div>
+                    </div>
+                    <div class="border__mes2">
+                        <div class="user-message">You: Hi! I'm doing well, thanks.</div>
+                    </div>
+                    <div class="border__mes">
+                        <div class="message">Friend: That's great to hear!</div>
+                    </div>
+                </div>
+                <div class="input">
+                    <input type="text" id="input-message" placeholder="Enter your message">
+                </div>
+              </div>
+        </div>
+        <!-- USER USER USER USER USER -->
+        <div class="right">
+            <div class="user">
+                <h1 id="chatToggle">Chat</h1>
+                <div class="frs">
+                    <div class="fr flex active">
+                        <img src="/assets/images/Avt1.jpg" alt="">
+                        <div>
+                            <p style="font-weight: 1000;">Friend 1</p>
+                            <p style="font-weight: 100;">Hoạt động 10p trước</p>
+                        </div>
+                    </div>
+                    <div class="fr flex">
+                        <img src="/assets/images/img1.png" alt="">
+                        <div>
+                            <p style="font-weight: 1000;">Friend 2</p>
+                            <p style="font-weight: 100;">Đang hoạt động</p>
+                        </div>
+                    </div>
+                    <div class="fr flex">
+                        <img src="/assets/images/img2.png" alt="">
+                        <div>
+                            <p style="font-weight: 1000;">Friend 3</p>
+                            <p style="font-weight: 100;">Hoạt động 10p trước</p>
+                        </div>
+                    </div>
+                    <div class="fr flex">
+                        <img src="/assets/images/img3.png" alt="">
+                        <div>
+                            <p style="font-weight: 1000;">Friend 4</p>
+                            <p style="font-weight: 100;">Hoạt động 43p trước</p>
+                        </div>
+                    </div>
+                    <div class="fr flex">
+                        <img src="/assets/images/img4.png" alt="">
+                        <div>
+                            <p style="font-weight: 1000;">Friend 5</p>
+                            <p style="font-weight: 100;">Hoạt động 3h trước</p>
+                        </div>
+                    </div>
+                    <div class="fr flex">
+                        <img src="/assets/images/img5.png" alt="">
+                        <div>
+                            <p style="font-weight: 1000;">Friend 6</p>
+                            <p style="font-weight: 100;">Đang hoạt động</p>
+                        </div>
+                    </div>
+                    <div class="fr flex">
+                        <img src="/assets/images/img6.png" alt="">
+                        <div>
+                            <p style="font-weight: 1000;">Friend 7</p>
+                            <p style="font-weight: 100;">Hoạt động 12p trước</p>
+                        </div>
+                    </div>
+                    <div class="fr flex">
+                        <img src="/assets/images/Logo.png" alt="">
+                        <div>
+                            <p style="font-weight: 1000;">Friend 8</p>
+                            <p style="font-weight: 100;">Hoạt động 3h trước</p>
+                        </div>
+                    </div>
+                    <div class="fr flex">
+                        <img src="/assets/images/img4.png" alt="">
+                        <div>
+                            <p style="font-weight: 1000;">Friend 9</p>
+                            <p style="font-weight: 100;">Hoạt động 1h trước</p>
+                        </div>
+                    </div>
+                    <div class="fr flex">
+                        <img src="/assets/images/img1.png" alt="">
+                        <div>
+                            <p style="font-weight: 1000;">Friend 10</p>
+                            <p style="font-weight: 100;">Hoạt động 15p trước</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/assets/js/chat.js"></script>
+</body>
+</html>

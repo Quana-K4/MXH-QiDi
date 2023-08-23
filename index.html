@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QiDi</title>
+    <!-- icon -->
+    <link rel="shortcut icon" href="/assets/images/Logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/mobile/mobile-index800.css" media="screen and (max-width:800px)" />
+    <link rel="stylesheet" href="./assets/css/mobile/mobile-index500.css" media="screen and (max-width:500px)" />
+    <script src="/assets/js/json.js"></script>
+    
+</head>
+
+<body>
+    <div class="black">
+        <img src="/assets/images/LOGOLOAD.png" alt="">
+    </div>
+    <header>
+        <div class="header flex">
+            <div class="header__logo">
+                <a href="/index.html" class="flex">
+                    <img src="/assets/images/Logo.png" alt="Logo QiDi" class="img__logo">
+                    <p>QiDi</p>
+                </a>
+            </div>
+            <div class="header__search flex">
+                <input type="text" class="timKiem" id="TKiem" placeholder="Tìm kiếm">
+                <button type="submit" id="btnSearch" class="button-search">
+                    <i class="ri-search-line" style="color: #c2c2c2;"></i>
+                </button>
+                <ul id="de-xuat"></ul>
+            </div>
+                <div class="header__right  flex">
+                    <div class="options flex">
+                        <div>
+                            <a href="#">
+                                <i class="ri-message-2-fill"></i>
+                            </a>
+                            <span class="tooltips">Tin nhắn</span>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <i class="ri-heart-fill"></i>
+                            </a>
+                            <span class="tooltips">Thông báo</span>
+                        </div>
+                    </div>
+                    <div class="header__user  flex" onclick="showMenu()" id="showMenuButton">
+                        <div class="user">
+                            <img src="/assets/images/Sample_User_Icon.png" alt="User">
+                        </div>
+                        <p>username</p>
+                        <i class="fa-solid fa-chevron-down" style="color: #c2c2c2;" id="skip"></i>
+                        <ul class="menu" id="menuu">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <div class="body">
+        <div class="show-sidebar-button">
+            <i class="ri-menu-line"></i>
+        </div>
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="menu2__json menu2"></div>
+            <div class="menu2">
+                <a href="#">
+                    <span class="icon hover2 avt">
+                        <img src="/assets/images/Sample_User_Icon.png"
+                            style="background-color: #c2c2c2; border-radius: 50%;" alt="">
+                    </span>
+                    Hồ sơ
+                </a>
+                <hr>
+                <div class="cateBook" onclick="showMenu3()" id="showMenuButton3">
+                    <span class="icon hover2">
+                        <i class="ri-menu-line" id="skip3"></i>
+                    </span>
+                    <div class="them">
+                        Thêm
+                        <ul class="menu-more" id="menuu3">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content -->
+        <div class="content">
+        </div>
+        <!-- aside -->
+        <div class="aside">
+            <div class="suggest">
+                <div class="sg flex">
+                    <p>Đề xuất cho bạn</p>
+                    <p>Xem tất cả</p>
+                </div>
+                <div class="sg__Json">
+                </div>
+                <div class="suggest__a ">
+                    <a href="#">About</a>
+                    <a href="#">Help</a>
+                    <a href="#">Press</a>
+                    <a href="#">API</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Privacy</a>
+                </div>
+                <div class="sgLast">© 2023 QiDi from Meta</div>
+            </div>
+        </div>
+    </div>
+    <button id="scrollTopButton">
+        <div>
+            <img src="/assets/images/dog (1).png" alt="">
+        </div>
+
+    </button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/Find.js"></script>
+</body>
+
+</html>

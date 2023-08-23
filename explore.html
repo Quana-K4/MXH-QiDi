@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QiDi</title>
+    <link rel="stylesheet" href="/assets/css/mobile-explore.css" media="screen and (max-width:500px)" />
+    <link rel="stylesheet" href="/assets/css/mobile/mobile-explore.css" media="screen and (max-width:500px)" />
+    <link rel="stylesheet" href="/assets/css/mobile/mobile-explore-height.css" media="screen and (max-height:500px)" />
+    <link rel="stylesheet" href="/assets/css/explore.css">
+    <!-- icon -->
+    <link rel="shortcut icon" href="/assets/images/Logo.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+    <div class="black">
+      <img src="/assets/images/LOGOLOAD.png" alt="">
+    </div>
+  <div class="body">
+    <div class="body flex">
+        <!-- Sidebar -->
+        <div class="show-sidebar-button">
+          <i class="ri-menu-line"></i>
+      </div>        
+        <div class="sidebar">
+            <div class="header__logo hover1"> 
+              <a href="/index.html" class="flex">
+                    <img src="/assets/images/Logo.png" alt="Logo QiDi" class="img__logo">
+                    <p>QiDi</p>
+                </a>
+            </div>
+            <div class="menu2__json menu2"></div>
+            <div class="menu2">
+              <a href="#">
+                    <span class="icon hover2 avt">
+                      <img src="/assets/images/Sample_User_Icon.png" style="background-color: #c2c2c2; border-radius: 50%;" alt="">
+                    </span>
+                    Hồ sơ 
+                </a>
+                <hr>
+                <div class="cateBook" onclick="showMenu3()" id="showMenuButton3">
+                  <span class="icon hover2">
+                      <i class="ri-menu-line" id="skip3"></i>
+                  </span>
+                  <div class="them">
+                      Thêm
+                      <ul class="menu-more" id="menuu3">
+                      </ul>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <!-- content -->
+        <div class="content">
+            <div class="layout">
+              <div class="layout-item the-con content__item hover1 image">
+                    <img src="/assets/images/img1.png" alt="" class="layout-image">
+                    <div class="overlay flex">
+                      <div class="child flex">
+                          <i class="fa-regular fa-heart act__heart hover2" style="color: #EEEDF0;" onclick="toggleHeartIcon(this)"></i>
+                        <p>3m3</p>
+                        <i class="ri-message-2-fill hover2"></i>
+                        <p>49k</p>
+                      </div>
+                    </div>
+                  </div>
+                <div class="layout-item the-con content__item hover1 image">
+                  <img src="/assets/images/img2.png" alt="" class="layout-image">
+                  <div class="overlay flex">
+                    <div class="child flex">
+                      <i class="fa-regular fa-heart act__heart hover2" style="color: #EEEDF0;" onclick="toggleHeartIcon(this)"></i>
+                     <p>3m3</p>
+                     <i class="ri-message-2-fill hover2"></i>
+                      <p>49k</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="layout-item the-con content__item hover1 image">
+                  <img src="/assets/images/img3.png" alt="" class="layout-image">
+                  <div class="overlay flex">
+                    <div class="child flex">
+                        <i class="fa-regular fa-heart act__heart hover2" style="color: #EEEDF0;" onclick="toggleHeartIcon(this)"></i>
+                     <p>3m3</p>
+                     <i class="ri-message-2-fill hover2"></i>
+                     <p>49k</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="layout-item the-con content__item hover1 image">
+                  <img src="/assets/images/img4.png" alt="" class="layout-image">
+                  <div class="overlay flex">
+                    <div class="child flex">
+                      <i class="fa-regular fa-heart act__heart hover2" style="color: #EEEDF0;" onclick="toggleHeartIcon(this)"></i>
+                     <p>3m3</p>
+                     <i class="ri-message-2-fill hover2"></i>
+                      <p>49k</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="layout-item the-con content__item hover1 image">
+                  <img src="/assets/images/img5.png" alt="" class="layout-image">
+                  <div class="overlay flex">
+                    <div class="child flex">
+                        <i class="fa-regular fa-heart act__heart hover2" style="color: #EEEDF0;" onclick="toggleHeartIcon(this)"></i>
+                     <p>3m3</p>
+                      <i class="ri-message-2-fill hover2"></i>
+                      <p>49k</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="layout-item the-con content__item hover1 image">
+                  <img src="/assets/images/img6.png" alt="" class="layout-image">
+                  <div class="overlay flex">
+                    <div class="child flex">
+                        <i class="fa-regular fa-heart act__heart hover2" style="color: #EEEDF0;" onclick="toggleHeartIcon(this)"></i>
+                        <p>3m3</p>
+                      <i class="ri-message-2-fill hover2"></i>
+                      <p>49k</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        <!-- end content //////////////-->
+      </div>
+      <div class="gallery">
+        <i class="ri-close-line close hover2"></i>
+        <div class="gallery-box flex">
+          <!-- Ảnh -->
+          <div class="gallery-inner gallery-box-left" >
+            <img src="" alt="">
+          </div>
+          <!-- Nội dung -->
+          <div class="gallery-box-right">
+            <!-- Phần header của nội dung -->
+            <div class="section1 flex">
+              <div class="section__left flex">
+                  <img src="/assets/images/Avt1.jpg" alt="avatar" class="hover3">
+                  <!-- Tên -->
+                  <span class="name">Messi
+                      <!-- Hover -->
+                      <div class="section__Show">
+                          <!-- di chuyển vào hiện avt và tên -->
+                          <div class="section__ShowUesr flex">
+                              <img class="section__Show__img" src="/assets/images/Avt1.jpg" alt="avatar">
+                              <div class="section__showName">
+                                  <p>Messi</p>
+                                  <p style="opacity: .7;">LIONEL MESSI</p>
+                              </div>
+                            </div>
+                          <!-- di chuyển vào hiện các thông tin -->
+                          <div class="section__info flex">
+                              <p>
+                                  <table>
+                                      <tr>
+                                          <td>Bài viết</td>
+                                      </tr>
+                                      <tr>
+                                          <td>4</td>
+                                      </tr>
+                                  </table>
+                                </p>
+                              <p>
+                                  <table>
+                                      <tr>
+                                          <td>Followers</td>
+                                        </tr>
+                                      <tr>
+                                          <td>5.1M</td>
+                                      </tr>
+                                  </table>
+                              </p>
+                              <p>
+                                  <table>
+                                      <tr>
+                                          <td>Following</td>
+                                      </tr>
+                                      <tr>
+                                          <td>12</td>
+                                      </tr>
+                                  </table>
+                              </p>
+                          </div>
+                          <!-- di chuyển vào tên sẽ hiện ảnh -->
+                          <div class="section__pic flex">
+                              <img src="./assets/images/Avt1.jpg" alt="">
+                              <img src="./assets/images/Avt1.jpg" alt="">
+                              <img src="./assets/images/Avt1.jpg" alt="">
+                          </div>
+                          <!-- Nút theo dỗi khi khi di chuyển vào tên -->
+                          <div class="section__fl">
+                              <div onclick="changeFollow3(this)">
+                                  Following
+                              </div>
+                          </div>
+                      </div>
+                  </span>
+                  <!-- Ngày đăng -->
+                  <span class="date">1d</span>
+              </div>
+              <!-- Nút theo dõi -->
+              <p id="fl6" onclick="changeFollow(this)">Follow</p>
+              <!-- Nút 3 chấm -->
+              <div class="section__options" onclick="showMenu2()" id="showMenuButton2">
+                  <i class="fa-solid fa-ellipsis hover2" style="color: #EEEDF0;" id="skip2"></i>
+                  <div class="options__show" id="menuu2">
+                      <a href="#">
+                          <div>
+                              Báo cáo
+                          </div>
+                      </a>
+                      <ul class="menu__options">
+                      </ul>
+                  </div>
+                  <div class="cover" id="cover"></div>
+              </div>
+            </div>
+            <hr>
+            <div>
+              <h1>Hello!!</h1>
+              <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, dolorem expedita. Repellat mollitia unde nam cupiditate similique quibusdam libero quis natus quo iure nemo cum corporis, quae minus. Veritatis, tempora.</span>
+            </div>
+            <div class="down-box">
+              <div class="action flex">
+                <ul class="action__left flex">
+                    <li>
+                         <i class="fa-regular fa-heart act__heart hover2" style="color: #EEEDF0;" onclick="toggleHeartIcon(this)"></i>
+                    </li>
+                    <li>
+                        <i class="fa-regular fa-comment hover2" style="color: #EEEDF0;" ></i>
+                    </li>
+                    <li>
+                        <i class="fa-regular fa-share-from-square hover2" style="color: #EEEDF0;"></i>
+                      </li>
+                    </ul>
+                <p class="action__right">
+                    <i class="fa-regular fa-bookmark hover2" style="color: #EEEDF0;" onclick="toggleSaveIcon(this)"></i>
+                  </p>
+            </div>
+            <div class="binh-luan">
+              <form action="" class="flex">
+                  <input type="text" name="" placeholder="Bình Luận">
+              </form>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="control prev hover2">
+          <i class="ri-arrow-left-circle-line"></i>
+        </div>
+        <div class="control next hover2">
+          <i class="ri-arrow-right-circle-line"></i>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/explore.js"></script>
+</body>
+</html>

@@ -1,0 +1,471 @@
+.black {
+    position: fixed;
+    top: 0;
+    background-color: var(--bg-color);
+    width: 100%;
+    height: 100%;
+    z-index: 2000;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 1s, visibility 1s;
+}
+.black img {
+    width: 11%;
+    text-align: center;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+img {
+    object-fit: cover;
+}
+*{
+    padding:0;
+    margin:0; 
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+    --bg-color: #17181F;
+    --t-color: #EEEDF0;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--t-color);
+
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.hover3 {
+    transition: transform 0.3s ease;
+}
+.hovered3 {
+    transform: scale(1.2);
+    border: 5px solid rgb(63, 174, 229) !important;
+
+}
+.f5 {
+    transform: scale(1.5);
+    border: 5px solid rgb(63, 174, 229) !important;
+}
+.hover2 {
+    transition: transform 0.3s ease;
+    position: relative;
+}
+.hovered2 {
+    transform: scale(1.4);
+}
+.f52 {
+    transform: scale(1.7);
+}
+.hover1 {
+    border: 1px solid transparent;
+    transition: transform 0.5s ease;
+}
+
+.hovered1 {
+    transform: scale(1.02);
+    border: 1px solid white !important;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--bg-color);
+    border-radius: 5px;
+}
+.body {
+    display: flex;
+    justify-content: flex-start;
+}
+:root {
+    --gradient: linear-gradient(to right, #CB69C1, #6C72CB);
+}
+
+.sidebar{
+    position: fixed;
+    top:0;
+    width: 20%;
+    height: 100vh;
+    background: var(--bg-color);
+    padding: 20px;
+    padding-top: 15px;
+    border-right: 0.5px solid gray ;
+    height: 100%;
+}
+.main-home {
+    position: absolute;
+    width: calc(100% - 300px);
+    top: 0;
+    left: 300px;
+    background: var(--t-color);
+    border-radius: 1rem 0 0 1rem;
+    z-index: 1000;
+}
+
+/* Phần menu */
+.logo img {
+    width: 60px;
+}
+
+.avt img {
+    width: 25px;
+}
+
+.menu2 a, .cateBook{
+    width: 100%;
+    font-size: 1rem;
+    color: var(--t-color);
+    display: flex;
+    align-items: center;
+    line-height: 55px;
+    margin-top: 3px;
+    text-decoration: none;
+    cursor: pointer;
+}
+ /* rơ chuột đến đổi tượng thay đổi */
+.menu2 a:hover,
+.active,
+.cateBook:hover{
+    font-weight: bold;
+    background-color: #cccccc20;
+    border-radius: 15px;
+    opacity: 1;
+    color: var(--t-color);
+}
+
+.menu2 .icon{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-size: 25px;
+}
+.them {
+    position: relative;
+}
+.menu-more {
+    visibility: hidden;
+    position: absolute;
+    width: 240px;
+    background-color: var(--bg-color);
+    border-radius: 15px;
+    border: 0.5px solid gray ;
+    list-style-type: none;
+    bottom: 100%;
+    z-index: 500;
+}
+.menu-more  li {
+    padding: 0 10px;
+}
+.menu-more div {
+    padding: 0   10px;
+    border-radius: 10px;
+}
+.win {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    padding: 3vh;
+    background-color: #3a3a3a;
+    cursor: pointer;
+}
+.chat{
+    width: 58%;
+    margin-left:20%;
+    border-right: .5px solid gray;
+}
+
+  #chat-container {
+    width: 100%;
+    background-color: var(--bg-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    height: 100vh;
+  }
+  #chat-header {
+    background-color: var(--bg-color);
+    color: var(--t-color);
+    height: 12vh;
+    justify-content: space-between;
+  }
+  #chat-header> div {
+    margin:0 40px;
+  }
+  .avt_c {
+    height: 12vh;
+    border-radius: 50%;
+    padding: 8px;
+    
+  }
+  .c_img {
+    height: 8vh;
+    width: 8vh;
+  }
+  .c_img img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+  }
+  .avt_c p {
+    padding-left: 10px;
+  }
+  .call {
+        font-size: 25px;
+  }
+  .call:hover {
+    font-size: 30px;
+    cursor: pointer;
+  }
+  #message-list {
+    height: 78vh;
+    overflow: auto;
+    border-top: .1px solid gray;
+    padding: 10px;
+  }
+  .border__mes {
+    /* display: block; */
+    display: flex;
+    justify-content: flex-start;
+  }
+  .border__mes2 {
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .message {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #3a3b3c;
+    padding: 15px ;
+    border-radius: 25px;
+    margin: 10px 15px ;
+    
+  }
+  .user-message {
+    background-color: #007bff;
+    padding: 15px ;
+    border-radius: 25px;
+    margin: 5px 15px;
+    margin-left: auto;
+    display: inline-block;
+    float: right;
+    /* min-width: 150px; */
+  }
+  .input {
+    height: 10vh;
+    position: relative;
+  }
+  #input-message {
+    color: var(--t-color);
+    width: 100%;
+    padding:10px 10px 30px;
+    outline: none;
+    background-color: #3a3b3c;
+    position: absolute;
+    height: 100%;
+    bottom: 0;
+}
+input::placeholder {
+    color: var(--t-color);
+    font-size: 16px;
+    opacity: .8;
+}
+.right {
+    position: fixed;
+    width: 20%;
+    left: 80%;
+}
+.user {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+
+}
+.frs {
+    width: 100%;
+    height: 85vh;
+    margin-top: 12vh;
+    overflow: auto;
+    padding: 10px;
+}
+.user h1 {
+    width: 100%;
+    padding: 16px 60px;
+    position: fixed;
+    z-index: 99;
+    background-color: var(--bg-color);
+}
+.fr {
+    height: 90px;
+}
+.fr:hover {
+    cursor: pointer;
+    background-color: #3a3a3a;
+    border-radius: 10px;
+}
+.fr img {
+    height: 80%;
+    width: 72px;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+/* ========================== Phần MENU ========================== */
+.header__logo {
+    padding: 15px;
+    width: 16rem;
+
+}
+
+.header__logo a {
+    text-decoration: none;
+}
+
+.header__logo p {
+    font-size: 30px;
+    font-weight: 600;
+    color: #0face0;
+    padding-left: 20px;
+}
+
+.img__logo {
+    width: 2.5rem;
+}
+
+.menu2 .icon {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-size: 25px;
+}
+
+.hearts {
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    z-index: 1000;
+    font-size: 50px;
+    visibility: hidden;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.heart__ed {
+    color: red !important;
+}
+.f5 {
+    transform: scale(1.5);
+    border: 5px solid rgb(63, 174, 229) !important;
+}
+.f52 {
+    transform: scale(1.7);
+}
+.hover3 {
+    transition: transform 0.5s ease;
+}
+
+.hovered3 {
+    transform: scale(1.2);
+    border: 3px solid rgb(63, 174, 229) !important;
+}
+
+.hover2 {
+    transition: transform 0.3s ease;
+}
+
+.hovered2 {
+    transform: scale(1.4);
+}
+
+.hover1 {
+    transition: transform 0.5s ease;
+}
+
+.hovered1 {
+    transform: scale(1.02);
+}
+
+.avt img {
+    width: 25px;
+}
+
+.menu2 a,
+.cateBook {
+    width: 100%;
+    font-size: 1rem;
+    color: var(--t-color);
+    display: flex;
+    align-items: center;
+    line-height: 55px;
+    margin-top: 3px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* rơ chuột đến đổi tượng thay đổi */
+.menu2 a:hover,
+.active,
+.cateBook:hover {
+    font-weight: bold;
+    background-color: #cccccc20;
+    border-radius: 15px;
+    opacity: 1;
+    color: var(--t-color);
+}
+
+.menu2 .icon {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-size: 25px;
+}
+.them {
+    position: relative;
+}
+.menu-more {
+    /* opacity: 0;  */
+    visibility: hidden;
+    position: absolute;
+    /* width: 100%; */
+    width: 220px;
+    background-color: var(--bg-color);
+    border-radius: 15px;
+    border: 0.5px solid gray;
+    list-style-type: none;
+    bottom: 100%;
+    left: -30px;
+}
+
+.menu-more li {
+    padding: 0 10px;
+}
+
+.menu-more div {
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+/* Styling for the sidebar when it's shown */
+.sidebar.show-sidebar {
+    display: block;
+    /* Add your desired styling for the shown sidebar */
+}
+.show-sidebar-button {
+    display: none;
+}
+#chatToggle {
+    display: none;
+}
+
+.chat.show-chat {
+    display: block;
+}

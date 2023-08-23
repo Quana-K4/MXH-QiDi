@@ -1,0 +1,95 @@
+.black {
+    position: fixed;
+    top: 0;
+    background-color: var(--bg-color);
+    width: 100%;
+    height: 100%;
+    z-index: 2000;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 1s, visibility 1s;
+}
+.black img {
+    width: 11%;
+    text-align: center;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.sidebar {
+    display: none;
+    z-index: 100 !important;
+    height: 100% !important;
+    width: 60% !important;
+}
+
+/* Style for the show-sidebar button */
+.show-sidebar-button {
+    display: block !important;
+    position: fixed !important;
+    top: 20px !important;
+    right: 20px !important;
+    z-index: 1000 !important;
+    background-color: #343438;;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.content {
+    width: 100% !important;
+    /* left: 100px; */
+    margin-left: 0% !important;
+}
+
+.chat{
+    width: 100% !important;
+    margin-left: 0% !important;
+    height: 70%;
+    margin-top: 20%;
+    position: fixed;
+}
+
+.right {
+    top: 0px;
+    height: 30%;
+    display: block;
+    width:  100%;
+    left: 0% !important
+}
+
+    /* .fr {
+        display: none;
+    } */
+
+#chat-header {
+    
+    height: 10% !important;
+    
+  }
+  #message-list {
+    height: 70% !important;
+    
+    
+    
+  }
+  .input {
+    height: 10% !important;
+    
+  }
+
+  #chatToggle {
+    display: block !important;
+  }
+  /* CSS */
+.frs {
+    /* Thuộc tính display mặc định: none để ẩn phần .frs */
+    display: none;
+}
+
+/* Hiển thị phần .frs khi có lớp .active */
+.frs.active {
+    display: block;
+    background: #343438;
+    /* Các thuộc tính khác tùy theo thiết kế của bạn */
+}

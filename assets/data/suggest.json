@@ -1,0 +1,81 @@
+[
+    {
+        "name" : "Hancock",
+        "imgA": "/assets/images/img5.png",
+        "fName": "BOA HANCOCK",
+        "post": 45,
+        "flR" :"9.1M",
+        "flNg": 1,
+        "img1": "/assets/images/img1.png",
+        "img2": "/assets/images/img2.png",
+        "img3": "/assets/images/img3.png",
+        "id" : "fl1",
+        "id2" : "fl1-2"
+    },
+    {
+        "name" : "Reiju",
+        "imgA": "/assets/images/img1.png",
+        "fName": "VINSMOKE REIJU",
+        "post": 12,
+        "flR" :"7.1K",
+        "flNg": 17,
+        "img1": "/assets/images/img1.png",
+        "img2": "/assets/images/img2.png",
+        "img3": "/assets/images/img3.png",
+        "id" : "fl2",
+        "id2" : "fl2-2"
+    },
+    {
+        "name" : "Ace",
+        "imgA": "/assets/images/img3.png",
+        "fName": "PORTGAS D. ACE",
+        "post": 89,
+        "flR" :"1M",
+        "flNg": 122,
+        "img1": "/assets/images/img1.png",
+        "img2": "/assets/images/img2.png",
+        "img3": "/assets/images/img3.png",
+        "id" : "fl3",
+        "id2" : "fl3-2"
+    },
+    {
+        "name" : "BROOK",
+        "imgA": "/assets/images/img2.png",
+        "fName": "BROOK",
+        "post": 4,
+        "flR" :"5.1M",
+        "flNg": 12,
+        "img1": "/assets/images/img1.png",
+        "img2": "/assets/images/img2.png",
+        "img3": "/assets/images/img3.png",
+        "id" : "fl4",
+        "id2" : "fl4-2"
+    },
+    {
+        "name" : "Blackbeard",
+        "imgA": "/assets/images/img6.png",
+        "fName": "MARSHALL D. TEACH",
+        "post": 4,
+        "flR" :"5.1M",
+        "flNg": 12,
+        "img1": "/assets/images/img1.png",
+        "img2": "/assets/images/img2.png",
+        "img3": "/assets/images/img3.png",
+        "id" : "fl5",
+        "id2" : "fl5-2"
+    },
+    {
+        "name" : "Kid",
+        "imgA": "/assets/images/img4.png",
+        "fName": "EUSTASS KID",
+        "post": 4,
+        "flR" :"5.1M",
+        "flNg": 12,
+        "img1": "/assets/images/img1.png",
+        "img2": "/assets/images/img2.png",
+        "img3": "/assets/images/img3.png",
+        "id" : "fl6",
+        "id2" : "fl6-2"
+    }
+    
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "href": "#",
+        "class": "icon",
+        "span": "Cài đặt",
+        "i": "ri-settings-3-fill"
+    },
+    {
+        "href": "#",
+        "class": "icon",
+        "span": "Hoạt động của bạn",
+        "i": "ri-time-line"
+    },
+    {
+        "href": "#",
+        "class": "icon",
+        "span": "Đã lưu",
+        "i": "ri-bookmark-fill"
+    },
+    {
+        "href": "#",
+        "class": "icon",
+        "span": "Đổi giao diện",
+        "i": "ri-moon-fill"
+    },
+    {
+        "href": "#",
+        "class": "icon",
+        "span": "Báo cáo vấn đề",
+        "i": "ri-error-warning-fill"
+    },
+    {
+        "href": "/login.html",
+        "class": "icon",
+        "span": "Đăng xuất",
+        "i": "ri-logout-box-line"
+    }
+]

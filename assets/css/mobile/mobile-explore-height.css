@@ -1,0 +1,29 @@
+.sidebar {
+    display: none;
+    z-index: 100 !important;
+    height: 100% !important;
+    width: 60% !important;
+}
+
+/* Style for the show-sidebar button */
+.show-sidebar-button {
+    display: block !important;
+    position: fixed !important;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000 !important;
+    background-color: #343438;;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.content {
+    width: 100% !important;
+    /* left: 100px; */
+    margin-left: 0% !important;
+}
+
+.menu2 a, .cateBook {
+    line-height: 15px !important;
+    margin-top:  10px !important;
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "href": "/index.html",
+        "class": "active",
+        "span": "Trang chủ",
+        "i": "ri-home-fill"
+    },
+    {
+        "href": "/explore.html",
+        "class": "",
+        "span": "Khám phá",
+        "i": "ri-compass-3-line"
+    },
+    {
+        "href": "/chat.html",
+        "class": "",
+        "span": "Tin nhắn",
+        "i": "ri-message-2-fill"
+    },
+    {
+        "href": "#",
+        "class": "",
+        "span": "Gaming",
+        "i": "ri-gamepad-fill"
+    },
+    {
+        "href": "#",
+        "class": "",
+        "span": "Reels",
+        "i": "ri-film-fill"
+    },
+    {
+        "href": "#",
+        "class": "",
+        "span": "Thông báo",
+        "i": "ri-heart-fill"
+    },
+    {
+        "href": "#",
+        "class": "",
+        "span": "Tạo bài viết",
+        "i": "ri-add-box-fill"
+    }
+]

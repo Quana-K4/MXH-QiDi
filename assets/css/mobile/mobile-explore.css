@@ -1,0 +1,77 @@
+/* Hide the sidebar by default when screen width is less than 700px */
+.sidebar {
+    display: none;
+    z-index: 100 !important;
+    width: 60% !important;
+}
+
+/* Style for the show-sidebar button */
+.show-sidebar-button {
+    display: block !important;
+    position: fixed !important;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000 !important;
+    background-color: #343438;;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.content {
+    width: 100% !important;
+    /* left: 100px; */
+    margin-left: 0% !important;
+}
+
+.layout {
+    /* Đặt các thuộc tính về giá trị mặc định hoặc mong muốn */
+    display: block !important;
+    grid-template-columns: auto; /* Hoặc giá trị khác tùy theo thiết kế */
+    grid-template-rows: auto; /* Hoặc giá trị khác tùy theo thiết kế */
+    grid-column-gap: initial; /* Hoặc giá trị khác tùy theo thiết kế */
+    grid-row-gap: initial; /* Hoặc giá trị khác tùy theo thiết kế */
+}
+
+.layout-item {
+    /* Đặt các thuộc tính về giá trị mặc định hoặc mong muốn */
+    grid-column: auto;
+    grid-row: auto;
+}
+
+.layout-item:first-child {
+    /* Đặt các thuộc tính về giá trị mặc định hoặc mong muốn */
+    grid-column: auto;
+    grid-row: auto;
+}
+
+.layout-item:nth-child(2),
+.layout-item:nth-child(3),
+.layout-item:nth-child(4),
+.layout-item:nth-child(5),
+.layout-item:last-child {
+    /* Đặt các thuộc tính về giá trị mặc định hoặc mong muốn */
+    grid-row: auto;
+}
+
+.layout-item {
+    height: 700px !important;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.gallery-box {
+    flex-direction: column; /* Chuyển sang layout dọc cho thiết bị di động */
+    display: block;
+}
+
+.gallery-box-left {
+    width: 100% !important;
+    height: 50% !important;
+    order: -1; /* Đặt thứ tự của phần tử này lên trước */
+}
+
+.gallery-box-right {
+    width: 100% !important;
+    height: 40% !important;
+    order: 1; /* Đặt thứ tự của phần tử này xuống dưới */
+}

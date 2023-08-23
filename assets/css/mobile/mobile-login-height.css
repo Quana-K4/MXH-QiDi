@@ -1,0 +1,13 @@
+form .form-control {
+    
+    margin: 0px;
+}
+
+.container {
+    
+    width: 100% !important;
+    height: 100% !important;
+    border: 0px !important;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05); 
+    margin: 0px;
+}
